@@ -1,4 +1,4 @@
 #!/bin/bash
-cat $(find . -name "foo.txt") 
-cat $(find . -name "bar.txt")
-cat $(find . -name "baz.txt")
+cat $(find . -name "foo.txt" -type f) 
+cat $(find . -name "bar.txt" -type f)
+cat $(find . -name "baz.txt" -type f)
